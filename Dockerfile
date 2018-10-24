@@ -1,9 +1,9 @@
-FROM ubuntu:15.10
+FROM ubuntu:18.04
 MAINTAINER Lucas Mundim "lucas.mundim@gmail.com"
 
 # Versions
-ENV NGINX_VERSION 1.9.7
-ENV NGINX_RTMP_VERSION 1.1.7
+ENV NGINX_VERSION 1.14.0
+ENV NGINX_RTMP_VERSION 1.2.1
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV PATH=/usr/local/nginx/sbin:$PATH
